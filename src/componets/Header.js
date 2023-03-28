@@ -1,12 +1,9 @@
 import { Button } from 'react-bootstrap';
 import React from 'react';
-import {useNavigate} from "react-router-dom"
+import {Link} from "react-router-dom"
 
 const Header = () => {
-  const navigate = useNavigate();
-  const onClickLogin = () => {
-    navigate('/')
-  }
+  
   return (
     <div>
       <header className="header axil-header header-style-1">
@@ -55,7 +52,8 @@ const Header = () => {
                   <li><a href="contact.html">Contact</a></li>
                 </ul>
                 
-                  <Button variant="primary"type='button ' className='h-25' onClick={onClickLogin}>Login</Button>
+                  <Button variant="primary"type='button ' className='h-25' >
+                    <Link to="/Login">Login</Link></Button>
               </nav>
             </div>
           </div>
