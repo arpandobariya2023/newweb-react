@@ -41,7 +41,7 @@ const Header = () => {
                       <li><a href="javascript:void(0)">Four Column</a></li>
                       <li><a href="portfolio.html">Three Column Width</a></li>
                       <li><a href="javascript:void(0)">Four Column Width</a></li>
-                      <li><a href="javascript:void(0)">Portfolio Details</a></li>
+                      
                     </ul>
                   </li>
                   <li className="dropdown">
