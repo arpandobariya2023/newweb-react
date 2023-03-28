@@ -22,11 +22,7 @@ const Header = () => {
                     <a href="javascript:void(0)" className="topper subtoper-1">Digital Agency <i className="fa-solid fa-angle-down" />
                     </a><ul className="submenu submenu-1"><a href="javascript:void(0)" className="topper subtoper-1">
                     </a><li><a href="javascript:void(0)" className="topper subtoper-1" /><a href="index.html">Digital Agency</a></li>
-                      <li><a href="javascript:void(0)">Creative Agency</a></li>
-                      <li><a href="javascript:void(0)">Personal Portfolio</a></li>
-                      <li><a href="javascript:void(0)">Home Startup</a></li>
-                      <li><a href="javascript:void(0)">Corporate Agency</a></li>
-                      <li><a href="javascript:void(0)">RTL Demo</a></li>
+                      
                     </ul>
                   </li>
                   <li className="dropdown">
